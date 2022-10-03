@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CONTACTANOS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shorcut icon" href="img/logo.png">
+    <link rel="stylesheet" href="https://use.typekit.net/wmf8ylq.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logo.png" id="home">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav m-auto text-center">
+              <li class="nav-item" >
+                <a class="nav-link" aria-current="page" href="estetica.html">estetica</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="imagenes.html">imagenes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="referencias.html">referencias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: red;" aria-current="page" href="#">contactanos</a>
+              </li>
+            </ul> 
+            <div class="botton text-center" id="boton">
+              <a href="login.html" class="btn btn-dark" target="_blank">
+                Log in
+              </a>
+            </div>
+          </div>  
+        </div>
+      </nav>
+    </header>
+    <section>
+        <div class="container-fluid">
+            <figure class="text-center m-auto" id="txt">
+                <blockquote class="blockquote">
+                  <p>Completa los casilleros con tus datos y nos pondremos encontacto a la brevedad</p>
+                </blockquote>
+              </figure>
+              <div class="container-fluid">
+                <form class="row g-3 needs-validation" action="validacion.html">
+                <div class="col-md-12">
+                  <label for="validationCustom01" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="validationCustom01" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <label for="validationCustom02" class="form-label">Apellido</label>
+                  <input type="text" class="form-control" id="validationCustom02" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <label for="validationCustomUsername" class="form-label">Email</label>
+                  <div class="col-md-12">
+                    <input type="email" class="form-control" id="inputEmail4">
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <label for="validationCustom04" class="form-label">Ciudad</label>
+                  <select class="form-select" id="validationCustom04" required>
+                    <option selected disabled value="">...</option>
+                    <option>Argentina</option>
+                    <option>Brasil</option>
+                    <option>Uruguay</option>
+                    <option>Chile</option>
+                    <option>Nueva York</option>
+                    <option>Madrid</option>
+                    <option>Londres</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Please select a valid state.
+                  </div>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                </div>
+              </form>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+body{
+    font-family: poppins,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: right;
+}
+header{
+    background-color: white;
+    position: sticky;
+    justify-content: space-between;
+    width: 100%;
+    height: 88px;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+}
+.container-fluid li a{
+    text-decoration: none;
+    color: black;
+}
+#home{
+    width: 100px;
+    left: 33px;
+    top: 16px;
+}
+.txt h2{
+    text-align: center;
+}
+
+#wallpaper{
+    padding: 50px;
+}
+#wallpaper img{
+    border-radius: 2%;
+    width: 100%;
+    filter: brightness(50%);
+}
+#galery img{
+    width: 100%;
+}
+#txt{
+    padding: 100px;
+}
+.centrado H1{
+    width: 100px;
+
+}
+.centrado{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.firma{
+    color: white;
+    font-family: fertigo-script,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+footer{
+    text-align: center;
+    background-color: red;
+}
